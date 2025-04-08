@@ -1,0 +1,144 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+body{
+    width:100%;
+    height:100%;
+}
+
+.header-gray{
+    background-color: #f3f3f3;
+}
+
+
+.fnt-12px{
+    font-size: 12px;
+}
+
+.header-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.header-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height: 40px;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top: 0.7%;
+}
+
+.ribbon{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height: 60px;
+    align-content: center;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top: 1%;
+}
+
+
+.nav-items{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+
+
+    a {
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+}
+
+.icon-holder{
+    display:flex;
+    flex-direction: row;
+    gap:2%;
+}
+
+.logo img{  
+    height: 40px;   
+}
+
+.video-container{
+    display:flex;
+    width:100%;
+    background-color:red;
+    height:600px;
+}
+
+.photo-grid-container{
+    display:flex;
+    flex-direction: row;
+    height:1200px;
+    width:100%;
+    flex-wrap:wrap;
+    background-color:pink;
+}
+
+.bigtxt-btn-container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height:300px;
+    align-content:center;
+}
+
+.carousel-holder{
+    display:flex;
+    width:100%;
+    height:700px;
+    background-color:blue;
+}
+
+.mini-carousel-holder{
+    display:flex;
+    width:100%;
+    height:400px;
+    background-color:blue;
+}
+
+.btm-photo-grid-container{
+    display:flex;
+    flex-direction: row;
+    height:700px;
+    width:100%;
+    flex-wrap:wrap;
+    background-color:pink;
+}
+
+.btm-holder{
+    display:flex;
+    flex-direction: row;
+    height:500px;
+    width:100%;
+    flex-wrap:wrap;
+    background-color:red;
+    border-color:black;
+    border-style:solid;
+    justify-content: center;
+    align-content: center;
+}
+
+.btm-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left:5%;
+    padding-right:5%;
+    background-color:yellow;
+}
+
+
