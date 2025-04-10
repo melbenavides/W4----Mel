@@ -3,22 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Helvetica', sans-serif;
+}
 
+
+@font-face {
+    font-family: "Futura";
+    src: url("Nike-Futura-ot-300.woff2") format("woff2");
 }
 
 body{
     width:100%;
     height:100%;
+
+}
+
+
+/* Colors*/ 
+
+.black{
+    color:black;
 }
 
 .header-gray{
     background-color: #f3f3f3;
 }
 
-
-.fnt-12px{
-    font-size: 12px;
+.white-txt{
+    color:white;
 }
+
+
+
+/* Containers */
 
 .header-container{
     display:flex;
@@ -34,7 +50,19 @@ body{
     padding-left:1%;
     padding-right:1%;
     padding-top: 0.7%;
+
+    img{
+        height: 25px;
+        padding-left:1%;
+        padding-bottom:0.1%;
+    }
 }
+
+.search-bar{
+    
+    
+}
+
 
 .ribbon{
     display:flex;
@@ -70,7 +98,7 @@ body{
 }
 
 .logo img{  
-    height: 40px;   
+    height: 40px;
 }
 
 .video-container{
@@ -83,7 +111,6 @@ body{
 .photo-grid-container{
     display:flex;
     flex-direction: row;
-    height:1200px;
     width:100%;
     flex-wrap:wrap;
     background-color:pink;
@@ -93,28 +120,171 @@ body{
     display:flex;
     flex-direction: column;
     width: 100%;
-    height:300px;
+    height:270px;
     align-content:center;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .carousel-holder{
     display:flex;
     width:100%;
     height:700px;
-    background-color:blue;
 }
 
-.mini-carousel-holder{
+.carousel-holder-top{
     display:flex;
+    flex-direction:column;
     width:100%;
-    height:400px;
-    background-color:blue;
+    height:900px;
+    background-color:#f3f3f3;
+    padding-left:2%;
+    padding-top: 2%;
+}
+
+.carousel-wrapper{
+    display:flex;
+    flex-direction: row;
+    gap:2px;
+}
+
+.card{
+    flex-shrink:0;
+    width:600px;
+    height:600px;
+    background-color:red;
+}
+
+.carousel-card-wrapper{
+    display:flex;
+    overflow-x: scroll;
+    list-style:none;
+    height: 1000px;
+    scroll-snap-type: x mandatory;
+    gap:0.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.car-header{
+    display:flex; 
+    flex-direction: row;
+    gap:75%;
+}
+
+
+
+.mini-carousel-holder{
+    width:100%;
+    background-color:#f3f3f3;
+    padding:3%;
+
+}
+
+.card-text-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 1%;
+}
+
+.card-header-bl{
+    font-size:15px;
+    color:black;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.card-header-gr{
+    font-size:17px;
+    color:gray;
+
+}
+
+
+
+
+.pr-1{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-image: url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/c536265c-8977-4edc-a989-9392b0ba378d/goggles-de-nataci%C3%B3n-espejados-expanse-bWCsvK4E.png");
+}
+
+
+.pr-2{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/03d448aa-1955-4ce8-b0ef-6cf31d04894a/swim-essential-traje-de-ba%C3%B1o-de-una-pieza-con-cuello-en-5-4O3v90Tq.png");
+}
+
+.pr-3{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/2f93fd2d-22e5-4c40-b61a-ddd873fd6988/gorra-de-nataci%C3%B3n-swim-solid-silicone-SRaQV6sh.png");
+}
+.pr-4{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/31e66de2-3b34-4e80-be44-463eebc45317/swim-legacy-comfort-goggles-espejados-7BKxJz0e.png");
+}
+.pr-5{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-repeat: cover;
+    background-image: url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/af65d010-cde1-48db-8bab-faf0993bccdf/swim-legacy-comfort-goggles-espejados-7BKxJz0e.png");
+}
+
+.pr-6{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-repeat: cover;
+    background-image:url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/cd734ad2-03cf-46c5-9113-41f251a5dd62/swim-hydrastrong-traje-de-ba%C3%B1o-recortado-de-una-pieza-DCYA6D9G.png");
+}
+
+.pr-7{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-repeat: cover;
+    background-image:url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/eac494dd-ddc2-4507-bc83-6b7b6a8b42ed/swim-hydrastrong-traje-de-ba%C3%B1o-recortado-de-una-pieza-DCYA6D9G.png");
+}
+.pr-8{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-repeat: cover;
+    background-image:url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/9b70ca92-1abd-47bc-90e5-35f57a140959/essential-traje-de-ba%C3%B1o-de-una-sola-pieza-con-espalda-deportiva-talla-grande-UVAMWFQf.png");
+}
+.pr-9{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-repeat: cover;
+    background-image:url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/bf459a94-53bc-4707-888d-e3b3a4070746/gorra-de-nataci%C3%B3n-swim-solid-silicone-SRaQV6sh.png");
+}
+.pr-10{
+    width:100%;
+    height:100%;
+    background-size:contain;
+    background-repeat: cover;
+    background-image:url("https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_576,c_limit/b11d054e-61e5-4189-9bb1-703a8bcbff25/nataci%C3%B3n-conjunto-de-top-cropped-de-manga-larga-y-parte-de-abajo-de-tiro-alto-talla-grande-3QFfHJ7a.png");
 }
 
 .btm-photo-grid-container{
     display:flex;
     flex-direction: row;
-    height:700px;
+    height:650px;
     width:100%;
     flex-wrap:wrap;
     background-color:pink;
@@ -123,12 +293,9 @@ body{
 .btm-holder{
     display:flex;
     flex-direction: row;
-    height:500px;
+    height:400px;
     width:100%;
     flex-wrap:wrap;
-    background-color:red;
-    border-color:black;
-    border-style:solid;
     justify-content: center;
     align-content: center;
 }
@@ -138,7 +305,308 @@ body{
     flex-direction: row;
     padding-left:5%;
     padding-right:5%;
-    background-color:yellow;
+    gap:50px;
+
+}
+
+.buy-btn{
+    background-color: black;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    border:none;
 }
 
 
+
+.photo-container{
+    width: 50%;
+    height:55%;
+}
+
+.btn-holder{
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+    align-items: center;
+}
+
+.move-back, .move-forw{
+    background-color: #eaeaea;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+}
+
+/* Images */
+
+.photo-container.img-1{
+    background-size: cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_1117,c_limit/1be9d5bb-378e-4c96-910a-30feb81ecc28/sitio-web-oficial-de-nike.jpg");
+}
+
+.photo-container.img-2{
+    background-size: cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_1117,c_limit/adb74a0b-c393-4945-ade8-ae499cdea6d5/sitio-web-oficial-de-nike.png");
+}
+
+.photo-container.img-3{
+    background-size: cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_1117,c_limit/918b8955-7497-44ab-932c-d22fe1fac437/sitio-web-oficial-de-nike.jpg");
+}
+
+.photo-container.img-4{
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_1117,c_limit/128ff9ab-897b-4344-9156-7f50bbb736af/sitio-web-oficial-de-nike.jpg");
+}
+
+.photo-container.img-5{
+    height:100%;
+    background-size:cover;
+    background-image:url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_1117,c_limit/9d8c4acf-6d9d-4296-a250-a7606c9db1f0/sitio-web-oficial-de-nike.jpg");
+
+}
+
+
+.photo-container.img-6{
+    height:100%;
+    background-image:url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/7e9da556-e68e-47a4-9c4a-994ce5e7d4d2/sitio-web-oficial-de-nike.jpg");
+
+}
+
+.card-1{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+/*     transform: scale(.8); */    
+    background-image:url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/a75d42ee-6142-4024-98ef-b6ed4c90909a/sitio-web-oficial-de-nike.jpg");
+
+}
+
+.card-2{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-image:url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/a73744dd-3172-4ae7-8028-470d9e38e2fb/sitio-web-oficial-de-nike.jpg");
+
+    
+}
+
+.card-3{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-image:url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/8f658eeb-1158-4368-9640-ec93a0797a69/sitio-web-oficial-de-nike.jpg");
+}
+
+.card-4{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/dfa7d1bb-69f9-45bb-b32f-6edb776108f7/sitio-web-oficial-de-nike.jpg");
+    
+}
+
+.card-5{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-image:url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/b4c935e1-49d8-492b-acb8-9332a29a8825/sitio-web-oficial-de-nike.jpg");
+    
+}
+
+.card-6{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/5f3cbf3a-61d7-4a71-a9cf-2f7679eefae1/sitio-web-oficial-de-nike.jpg");
+}
+
+.card-7{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_2412,c_limit/68f314a7-ad74-477e-840b-c0a1ef00a49b/sitio-web-oficial-de-nike.jpg");
+}
+
+
+
+
+.item{
+    flex-shrink:0;
+    width: 300px;
+    height:400px;
+    background-color: pink;
+    scroll-snap-align: start;
+    
+}
+
+
+
+.list{
+    display:flex;
+    gap:8px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    list-style:none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    height:500px;
+ 
+}
+
+
+
+.landscape-img{
+    width:100%;
+}
+
+
+/* Text styles */
+
+.heading-futura{
+    font-size:76px;
+    font-weight: bold;
+    font-family: "Futura";
+}
+
+.subh{
+    font-family: "Helvetica";
+    font-size:20px;
+    padding-bottom:1%;
+    letter-spacing: 0.02em;
+
+}
+
+.btn-text{
+    color: white;
+    font-weight: 600;
+    font-size:15px;
+}
+
+.photo-text-wrapper{
+    display:flex;
+    flex-direction: column;
+    line-height: 1.7;
+    padding-top:51%;
+    padding-left:4%;
+    padding-bottom:4%;
+    
+}
+
+.main-text{
+    font-family: "Helvetica";
+    font-size:30px;
+    color:white;
+    letter-spacing: 0.01em;
+}
+
+.main-text-blk{
+    font-family: "Helvetica";
+    font-size:25px;
+    color:black;
+    letter-spacing: 0.01em;
+}
+
+.main-text-blk-20px{
+    font-family: "Helvetica";
+    font-size:20px;
+    color:black;
+    letter-spacing: 0.01em;
+}
+
+.fnt-25px{
+    font-size:25px;
+}
+
+.fnt-12px{
+    font-size: 12px;
+}
+
+.fnt-15px{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.white-btn{
+    background-color:white;
+    color:black;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+.text-slot{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+
+}
+
+.btm-txt-header{
+    font-size:25px;
+    color:gray;
+
+}
+
+.footer-header-txt{
+    font-size:12px;
+    color:black;
+    font-weight:bold;
+}
+
+.no-style-list{
+    list-style: none;
+    line-height:2;
+}
+
+.btm-items{
+    font-size:15px;
+    color:gray;
+}
+
+.footer-text-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left:5%;
+    padding-right:5%;
+    gap:200px;
+}
+
+.footer-holder{
+    display:flex;
+    flex-direction: row;
+    height:400px;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-content: center;
+    background-color:#fffdff;
+}
+
+.search-result-container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+
+}
+
+.search-result-header{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    height:100%;
+    background-color:#f3f3f3;
+    padding-left:2%;
+}
+
+.search-result-grid{
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    height:100%;
+    
+}
