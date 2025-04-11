@@ -17,6 +17,10 @@ body{
 
 }
 
+.icon-holder img{
+    width:20px;
+    height:20px;
+}
 
 /* Colors*/ 
 
@@ -58,11 +62,6 @@ body{
     }
 }
 
-.search-bar{
-    
-    
-}
-
 
 .ribbon{
     display:flex;
@@ -91,20 +90,28 @@ body{
 
 }
 
+.sample-search{
+    background-color:whitesmoke;
+    border:none;
+    border-radius:20px;
+    width:auto;
+    height:20px;
+}
+
 .icon-holder{
     display:flex;
     flex-direction: row;
-    gap:2%;
+    gap:3%;
 }
 
 .logo img{  
-    height: 40px;
+    height: 30px;
 }
 
 .video-container{
     display:flex;
     width:100%;
-    background-color:red;
+    background-color:white;
     height:600px;
 }
 
@@ -591,22 +598,428 @@ body{
     flex-direction: row;
     width:100%;
     height:100%;
+    padding-top:50px;
+    gap:50px;
 
 }
 
 .search-result-header{
     display:flex;
     flex-direction:column;
-    width:30%;
+    width:20%;
     height:100%;
-    background-color:#f3f3f3;
     padding-left:2%;
 }
 
+
+
 .search-result-grid{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    width:70%;
-    height:100%;
+    width: 74%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 54px;
+}
+
+.search-container {
+    display: none;
+    transform: translate(0%, 0%);
     
 }
+
+.recs-search{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:200px;
+    background-color:white;
+    position: fixed;
+    padding:1%;
+    padding-top: 3%;
+    padding-left: 15%;
+
+}
+
+.search{
+    padding:1%;
+    border-radius: 50px;
+    width: 500px;
+    height:60px;
+    border-style:none;
+    background-color:whitesmoke;
+
+}
+
+.search-bar-container{
+    padding-left:1%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap:1%;
+    padding-right:1%;
+}
+
+.search-recents{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    padding-top:2%;
+    
+
+}
+
+
+
+.recents-btn{
+    border-radius:20px;
+    width:90px;
+    height:30px;
+    border:none;
+    background-color: #f3f3f3;
+}
+
+.pad-top-1{
+    padding-top:1%;
+}
+
+.product-card{
+    padding-top: 3%;
+    height:500px;
+    width:450px;
+}
+
+.product-image{
+    width: 88%;
+    height: 88%;
+}
+
+
+.head-text{
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+
+    .p{
+        font-size: 20px;
+        color:gray;
+    }
+}
+
+.product-info{
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+    padding-top: 1%;
+    text-wrap: wrap;
+    
+    .product-h-txt{
+        font-size: 20px;
+        font-weight: bold;
+        color:black;
+    }
+
+    .prod-desc{
+        font-size:15px;
+    }
+}
+
+
+/* Item page */
+
+.item-page-container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+    padding-top:3%;
+}
+
+.container-left{
+    display:flex;
+    flex-direction:row; 
+    width: 55%;
+    height: 100%;
+    padding-left: 20%;
+}
+
+.container-right{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:400px;
+    line-height: 2;
+}
+
+.item-name{
+    font-size:25px;
+}
+
+.item-description{
+    flex-wrap:wrap;
+    font-size:15px;
+    color:gray;
+}
+
+.big-img img{
+    width:600px;
+    height:600px;
+
+}
+
+.big-img{
+    background-color:whitesmoke;
+}
+
+.small-imgs-holder{
+    padding-right:2%;
+    background-color:pink;
+}
+
+
+
+.bottom-holder{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding-top:5%;
+    padding-bottom:5%;
+    width:100%;
+    align-items:center;
+}
+
+.add-to-cart{
+    background-color:black;
+    color:white;
+    width:350px;
+    height:50px;
+    border-radius:20px;
+    border:none;
+    font-size:15px;
+
+}
+
+.add-to-fav{
+    background-color:white;
+    color:black;
+    width:350px;
+    height:50px;
+    border-radius:20px;
+    border:black;
+    border-style:solid;
+    border-width: 1px;
+    font-size:15px;
+}
+
+.size-button{
+    background-color:whitesmoke;
+    border-radius:20px;
+    border-width:0.5px;
+    width:90px;
+    height:50px;
+    gap:100px;
+    margin:1%;
+}
+
+.size-selector-wrapper{
+    padding-top:5%;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.mini-carousel-holder {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 3%;
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+}
+
+.mini-carousel-holder .carousel {
+    display: flex;
+    gap: 10px;
+    animation: scroll-infinite 20s linear infinite; /* Infinite scrolling animation */
+}
+
+.mini-carousel-holder .carousel-item {
+    flex-shrink: 0;
+    width: 200px; /* Adjust the width of each item */
+    height: 200px; /* Adjust the height of each item */
+    background-color: #ddd; /* Placeholder background */
+    border-radius: 10px;
+}
+
+.cart-container{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:100%;
+    padding-top:3%;
+    padding-left:5%;
+    padding-right:5%;
+    gap:50px;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 1%;
+    gap: 16%;
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: auto;
+}
+
+.cart-item-image{
+    width: 300px;
+    height: 300px;
+}
+
+.header h1{
+    font-size: 35px;
+    padding-left: 20%;
+    padding-top: 2%
+}
+
+
+.delete-button{
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 30px;
+    margin-top: 3%;
+    font-size: 12px;
+}
+
+.cart-item-details{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.heading-cart{
+    font-size:28px;
+    font-weight: bold;
+    padding:1%;
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    line-height: 2;
+}
+
+.total-price{
+    font-weight: bold;
+    word-spacing: 160px;
+}
+
+
+.empty-cart{
+    padding:0;
+}
+
+.text-bottom{
+    align-items: flex-start;
+}
+
+
+
+@media screen and (max-width:900px) {
+    /* Reset all elements */
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Helvetica', sans-serif;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container {
+        width: 100%;
+        height: 400px;
+    }
+
+    @font-face {
+        font-family: "Futura";
+        src: url("Nike-Futura-ot-300.woff2") format("woff2");
+    }
+
+    header{
+        width:100%;
+    }
+    .header-container {
+        width: 100%;
+    }
+
+    .header-section {
+        width: 100%;
+        height: 40px;
+        padding-left: 1%;
+        padding-right: 1%;
+          padding-top: 0.7%;
+    }
+
+    .carousel-holder-top{
+        width:100%;
+    }
+    .car-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.heading-futura{
+    display: flex;
+    font-size: 55px;
+}
+.btm-text-wrapper {
+    padding-bottom: 17%;
+
+}
+}
+
+

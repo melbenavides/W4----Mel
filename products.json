@@ -1,0 +1,347 @@
+[
+    {
+        "name": "Nike Air Max 270",
+        "price": 150.00,
+        "keywords": ["running shoes", "air max", "comfortable", "stylish"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/skwgyqrbfzhu6uyeh0gg/AIR+MAX+270.png",
+        "description": "The Nike Air Max 270 features a large Air unit for all-day comfort and a sleek design for a modern look.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Dri-FIT T-Shirt",
+        "price": 35.00,
+        "keywords": ["t-shirt", "dri-fit", "training", "lightweight"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/d1c47689-71df-40d5-81ef-d7f48f1da46f/M+NK+DF+TEE+RLGD+RESET.png",
+        "description": "Stay cool and dry during your workouts with the Nike Dri-FIT T-Shirt, made with moisture-wicking fabric.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Sportswear Club Fleece Hoodie",
+        "price": 55.00,
+        "keywords": ["hoodie", "fleece", "casual", "warm"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/d0e95597-55ce-4daf-836e-10da412d2920/M+NK+TCH+FLC+HZ+TOP.png",
+        "description": "The Nike Sportswear Club Fleece Hoodie offers soft comfort and a classic look for everyday wear.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Pro Shorts",
+        "price": 30.00,
+        "keywords": ["shorts", "training", "pro", "breathable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/53134318-16c5-4969-8ffc-ea33213072a5/W+NP+365+SHORT+3IN.png",
+        "description": "Train with confidence in the Nike Pro Shorts, designed with stretchy, breathable fabric for maximum mobility.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Heritage Backpack",
+        "price": 45.00,
+        "keywords": ["backpack", "heritage", "storage", "durable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/fe1b62fe-1124-4c4c-b947-949cfdafd9d2/NK+HERITAGE+BKPK.png",
+        "description": "The Nike Heritage Backpack combines style and functionality with ample storage space and a durable design.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Air Force 1",
+        "price": 90.00,
+        "keywords": ["sneakers", "air force 1", "classic", "streetwear"],
+        "image": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/7c3bfec4-dce3-4828-82da-377663e099db/fecha-de-lanzamiento-del-air-force-1-07-fresh-white-dm0211-100.jpg",
+        "description": "The Nike Air Force 1 is a timeless sneaker that combines comfort and style, perfect for any casual outfit.",
+        "size": ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"]
+    },
+    {
+        "name": "Nike ZoomX Vaporfly NEXT%",
+        "price": 250.00,
+        "keywords": ["running shoes", "zoomx", "performance", "lightweight"],
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e9f8c612-0b6b-4e4e-aaf8-af0d8b88b40c/NIKE+ZOOMX+INVINCIBLE+RUN+FK+3.png",
+        "description": "The Nike ZoomX Vaporfly NEXT% is designed for speed, featuring a lightweight construction and responsive cushioning.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+            "name": "Air Jordan 1 Retro High OG",
+            "price": 170.00,
+            "keywords": ["jordan", "retro", "high top", "classic"],
+            "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4caf3277-8878-4559-aa37-eef8c708a39b/AIR+JORDAN+1+RETRO+HIGH+OG.png",
+            "description": "The Air Jordan 1 Retro High OG delivers timeless style and premium comfort with its iconic design and high-quality materials.",
+            "size": ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"]
+    },
+    {
+            "name": "Air Jordan 4 Retro",
+            "price": 200.00,
+            "keywords": ["jordan", "retro", "basketball", "stylish"],
+            "image": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/vdsxfgcztiwvrvkkpfwk/nike-air-max-270-black-volt-release-date.jpg",
+            "description": "The Air Jordan 4 Retro combines classic design with modern performance, making it a must-have for basketball enthusiasts and sneakerheads alike.",
+            "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+            "name": "Air Jordan 11 Retro",
+            "price": 225.00,
+            "keywords": ["jordan", "retro", "elegant", "iconic"],
+            "image": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/2f79063e-d7dc-4a88-99ce-253a59382fa3/fecha-de-lanzamiento-del-air-jordan-4-white-and-black-dh6927-111.jpg",
+            "description": "The Air Jordan 11 Retro stands out with its sleek patent leather design and unmatched comfort, perfect for both on and off the court.",
+            "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Swim Goggles",
+        "price": 25.00,
+        "keywords": ["swim", "goggles", "waterproof", "adjustable","swim"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/27bf271a-8dd0-431f-b7b8-e7f057e9b83d/GOGGLE.png",
+        "description": "The Nike Swim Goggles provide a comfortable fit and clear vision underwater, perfect for training or recreational swimming.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Essential Swim Trunks",
+        "price": 40.00,
+        "keywords": ["swimwear", "trunks", "lightweight", "quick-dry"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/c622ff77-a919-4335-be2b-974c04c8205c/ESSENTIAL+SWIM+BOARDSHORT.png",
+        "description": "The Nike Essential Swim Trunks are lightweight and quick-drying, perfect for a day at the pool or beach.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    }
+    ,
+    {
+        "name": "Nike Pegasus Trail 3",
+        "price": 130.00,
+        "keywords": ["trail running", "pegasus", "durable", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/pegasus-trail-3.png",
+        "description": "The Nike Pegasus Trail 3 offers rugged durability and responsive cushioning for off-road adventures.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Therma-FIT Hoodie",
+        "price": 60.00,
+        "keywords": ["hoodie", "therma-fit", "warm", "training"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/therma-fit-hoodie.png",
+        "description": "Stay warm and focused with the Nike Therma-FIT Hoodie, designed for cold-weather training.",
+        "size": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Nike Victory Swim Hijab",
+        "price": 40.00,
+        "keywords": ["swimwear", "hijab", "modest", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/victory-swim-hijab.png",
+        "description": "The Nike Victory Swim Hijab provides full coverage and a secure fit for confident swimming.",
+        "size": ["One Size"]
+    },
+    {
+        "name": "Nike Air Zoom Pegasus 39",
+        "price": 120.00,
+        "keywords": ["running shoes", "air zoom", "lightweight", "responsive"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/air-zoom-pegasus-39.png",
+        "description": "The Nike Air Zoom Pegasus 39 delivers lightweight comfort and responsive cushioning for everyday runs.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Elite Basketball Socks",
+        "price": 18.00,
+        "keywords": ["socks", "basketball", "elite", "cushioned"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/elite-basketball-socks.png",
+        "description": "The Nike Elite Basketball Socks provide targeted cushioning and support for peak performance on the court.",
+        "size": ["S", "M", "L", "XL"]
+    },
+    {
+        "name": "Nike Air Jordan 6 Retro",
+        "price": 200.00,
+        "keywords": ["jordan", "retro", "basketball", "iconic"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/air-jordan-6-retro.png",
+        "description": "The Air Jordan 6 Retro combines premium materials and a timeless design for a standout look on and off the court.",
+        "size": ["7", "8", "9", "10", "11", "12", "13", "14"]
+    },
+    {
+        "name": "Nike Metcon 8 Training Shoes",
+        "price": 130.00,
+        "keywords": ["training shoes", "metcon", "durable", "stable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/metcon-8-training-shoes.png",
+        "description": "The Nike Metcon 8 Training Shoes provide exceptional stability and durability for intense workouts and weightlifting.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Sportswear Windrunner Jacket",
+        "price": 100.00,
+        "keywords": ["jacket", "windrunner", "lightweight", "stylish"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/windrunner-jacket.png",
+        "description": "The Nike Sportswear Windrunner Jacket offers lightweight coverage and a classic design for everyday wear.",
+        "size": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Nike Yoga Mat",
+        "price": 50.00,
+        "keywords": ["yoga", "mat", "non-slip", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/yoga-mat.png",
+        "description": "The Nike Yoga Mat provides a non-slip surface and cushioned support for your yoga practice.",
+        "size": ["One Size"]
+    },
+    {
+        "name": "Nike Vapor Edge Pro 360 Cleats",
+        "price": 120.00,
+        "keywords": ["cleats", "football", "vapor edge", "performance"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/vapor-edge-pro-360-cleats.png",
+        "description": "The Nike Vapor Edge Pro 360 Cleats are designed for explosive speed and quick cuts on the football field.",
+        "size": ["7", "8", "9", "10", "11", "12", "13"]
+    },
+    {
+        "name": "Nike Brasilia Duffel Bag",
+        "price": 40.00,
+        "keywords": ["duffel bag", "brasilia", "storage", "durable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/brasilia-duffel-bag.png",
+        "description": "The Nike Brasilia Duffel Bag offers spacious storage and a durable design, perfect for the gym or travel.",
+        "size": ["One Size"]
+    },
+    {
+        "name": "Nike Air Zoom Alphafly NEXT% 2",
+        "price": 275.00,
+        "keywords": ["running shoes", "alphafly", "performance", "lightweight"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/air-zoom-alphafly-next-2.png",
+        "description": "The Nike Air Zoom Alphafly NEXT% 2 is built for speed with advanced cushioning and a lightweight design.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Dunk Low Retro",
+        "price": 110.00,
+        "keywords": ["sneakers", "dunk", "retro", "streetwear"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/dunk-low-retro.png",
+        "description": "The Nike Dunk Low Retro brings back a classic design with modern comfort for everyday wear.",
+        "size": ["7", "8", "9", "10", "11", "12", "13"]
+    },
+    {
+        "name": "Nike Air Huarache",
+        "price": 125.00,
+        "keywords": ["sneakers", "huarache", "comfortable", "stylish"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/air-huarache.png",
+        "description": "The Nike Air Huarache offers a snug fit and iconic style for all-day comfort.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Blazer Mid '77 Vintage",
+        "price": 100.00,
+        "keywords": ["sneakers", "blazer", "vintage", "classic"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/blazer-mid-77-vintage.png",
+        "description": "The Nike Blazer Mid '77 Vintage combines old-school basketball style with modern comfort.",
+        "size": ["7", "8", "9", "10", "11", "12", "13"]
+    },
+    {
+        "name": "Nike React Infinity Run Flyknit 3",
+        "price": 160.00,
+        "keywords": ["running shoes", "react", "flyknit", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/react-infinity-run-flyknit-3.png",
+        "description": "The Nike React Infinity Run Flyknit 3 provides a smooth and stable ride for long-distance runs.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Air VaporMax Plus",
+        "price": 210.00,
+        "keywords": ["sneakers", "vapormax", "air", "stylish"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/air-vapormax-plus.png",
+        "description": "The Nike Air VaporMax Plus combines retro design with modern Air cushioning for a bold look and feel.",
+        "size": ["7", "8", "9", "10", "11", "12", "13"]
+    },
+    {
+        "name": "Nike Free RN 5.0",
+        "price": 100.00,
+        "keywords": ["running shoes", "free", "lightweight", "flexible"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/free-rn-5-0.png",
+        "description": "The Nike Free RN 5.0 offers a barefoot-like feel with lightweight flexibility for short runs.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike SB Dunk High Pro",
+        "price": 120.00,
+        "keywords": ["skateboarding", "dunk", "high top", "durable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/sb-dunk-high-pro.png",
+        "description": "The Nike SB Dunk High Pro delivers premium support and durability for skateboarding enthusiasts.",
+        "size": ["7", "8", "9", "10", "11", "12", "13"]
+    },
+    {
+        "name": "Nike Zoom Fly 5",
+        "price": 160.00,
+        "keywords": ["running shoes", "zoom fly", "lightweight", "responsive"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/zoom-fly-5.png",
+        "description": "The Nike Zoom Fly 5 is built for speed and endurance, featuring responsive cushioning and a lightweight design.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Wildhorse 7",
+        "price": 130.00,
+        "keywords": ["trail running", "wildhorse", "durable", "grip"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/wildhorse-7.png",
+        "description": "The Nike Wildhorse 7 provides rugged traction and durable support for trail running adventures.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Air Zoom Structure 24",
+        "price": 140.00,
+        "keywords": ["running shoes", "air zoom", "stability", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/air-zoom-structure-24.png",
+        "description": "The Nike Air Zoom Structure 24 offers reliable stability and responsive cushioning for everyday runs.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike React Miler 3",
+        "price": 150.00,
+        "keywords": ["running shoes", "react", "miler", "long-distance"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/react-miler-3.png",
+        "description": "The Nike React Miler 3 is designed for long-distance comfort with durable cushioning and a secure fit.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Winflo 9",
+        "price": 100.00,
+        "keywords": ["running shoes", "winflo", "lightweight", "breathable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/winflo-9.png",
+        "description": "The Nike Winflo 9 delivers lightweight breathability and responsive cushioning for everyday training.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Terra Kiger 8",
+        "price": 140.00,
+        "keywords": ["trail running", "terra kiger", "lightweight", "responsive"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/terra-kiger-8.png",
+        "description": "The Nike Terra Kiger 8 offers lightweight responsiveness and rugged traction for technical trail runs.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Pegasus Trail 4",
+        "price": 140.00,
+        "keywords": ["trail running", "pegasus", "durable", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/pegasus-trail-4.png",
+        "description": "The Nike Pegasus Trail 4 provides versatile comfort and durability for both road and trail running.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Wildhorse 8",
+        "price": 135.00,
+        "keywords": ["trail running", "wildhorse", "grip", "durable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/wildhorse-8.png",
+        "description": "The Nike Wildhorse 8 delivers exceptional grip and rugged durability for challenging trail conditions.",
+        "size": ["7", "8", "9", "10", "11", "12"]
+    },
+    {
+        "name": "Nike Flex Stride Shorts",
+        "price": 45.00,
+        "keywords": ["shorts", "flex", "lightweight", "breathable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/flex-stride-shorts.png",
+        "description": "The Nike Flex Stride Shorts offer lightweight comfort and breathability for running and training.",
+        "size": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Nike Challenger Shorts",
+        "price": 35.00,
+        "keywords": ["shorts", "challenger", "running", "comfortable"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/challenger-shorts.png",
+        "description": "The Nike Challenger Shorts provide a comfortable fit and versatile design for running or casual wear.",
+        "size": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Nike Dri-FIT Stride Shorts",
+        "price": 40.00,
+        "keywords": ["shorts", "dri-fit", "training", "quick-dry"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/dri-fit-stride-shorts.png",
+        "description": "The Nike Dri-FIT Stride Shorts are designed with quick-drying fabric to keep you comfortable during workouts.",
+        "size": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+        "name": "Nike Pro Flex Vent Max Shorts",
+        "price": 55.00,
+        "keywords": ["shorts", "pro", "flex", "ventilation"],
+        "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/pro-flex-vent-max-shorts.png",
+        "description": "The Nike Pro Flex Vent Max Shorts provide maximum ventilation and flexibility for intense training sessions.",
+        "size": ["S", "M", "L", "XL", "XXL"]
+    }
+]

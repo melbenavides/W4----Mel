@@ -9,6 +9,26 @@
 </head>
 <body>
 <header>
+    <div class="search-container">
+        <div class="search-bar-container pad-top-1">
+            <div class="logo">
+                <img src="./img/swoosh-2.png">
+            </div>
+            <input type="search" class="search" id="redirector" placeholder="Search...">
+            <div class="close-btn">Cancelar</div>
+        </div>
+        <div class="recs-search">
+            <p>Terminos de busqueda populares</p>
+            <div class="search-recents">
+                <button class="recents-btn" type="button">jordan</button>
+                <button class="recents-btn" type="button">dunk</button>
+                <button class="recents-btn" type="button">air force</button>
+                <button class="recents-btn" type="button">air max</button>
+                <button class="recents-btn" type="button">blazer</button>
+                <button class="recents-btn" type="button">dunk low</button>
+            </div>
+        </div>
+    </div>
     <div class="header-container">
         <div class="header-section header-gray">
             <img src="./img/jordan.png">
@@ -21,7 +41,7 @@
         </div>
         <div class="ribbon">
             <div class="logo">
-                <img src="./img/swoosh.jpg">
+                <img src="./img/swoosh-2.png">
             </div>
             <div class="nav-items">
                 <a href="#">Lo Nuevo</a>
@@ -32,14 +52,14 @@
                 <a href="#">SNKRS</a>
             </div>
             <div class="icon-holder">
-                <div class="search-bar">
-                    <input type="search" placeholder="Search...">
+                <div id="mainbar" class="search-bar">
+                    <input class="sample-search" type="search" placeholder="Search...">
                 </div>
                 <div class="header-icon">
-                    u
+                    <a href="#"><img src="./img/fav.png"></a>
                 </div>
                 <div class="header-icon">
-                    c
+                    <a href="cart.html"><img src="./img/cart.png"></a>
                 </div>
             </div>
 
@@ -47,7 +67,8 @@
     </div>
 </header>
     <div class="video-container">
-
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lit-XgtTEoQ?autoplay=1&mute=1" frameborder="0" ></iframe>
+        
     </div>
     <div class="bigtxt-btn-container">
         <div class="heading-futura">
@@ -93,12 +114,12 @@
             <div class="main-text-blk-20px">Estilos para dominar el agua</div>
             <div class="btn-holder">
                 Ver todo
-                <button class="move-back" type="button"><</button>
+                <button id="move-back" class="move-back" type="button"><</button>
                 <button id="move-forw" class="move-forw" type="button">></button>
             </div>
         </div>
 
-        <div class="carousel-card-wrapper">
+        <div id="carousel-card-wrapper" class="carousel-card-wrapper">
             <div class="card">
                 <div class="pr-1">
                 </div>
@@ -263,7 +284,7 @@
     </div>
     <div class="mini-carousel-holder">
         <div class="heading-futura">CLÁSICOS EN TENDENCIA</div>
-        <ul class="list">
+        <div class="list carousel">
             <li class="item"><div class="card-1">Item</div></li>
             <li class="item"><div class="card-2">Item</div></li>
             <li class="item"><div class="card-3">Item</div></li>
@@ -272,7 +293,7 @@
             <li class="item"><div class="card-5">Item</div></li>
             <li class="item"><div class="card-6">Item</div></li>
             <li class="item"><div class="card-7">Item</div></li>
-        </ul>
+        </div>
     </div>
     <div class="btm-photo-grid-container">
         <div class="photo-container img-5">
@@ -393,27 +414,9 @@
         </div>
     </div>
 
-    <div if:true class="search-container">
-        <div class="search-container">
-            <div class="search-bar">
-                <input type="search" placeholder="Search...">
-            </div>
-            <div class="close-btn">Cancelar</div>
-        </div>
-        <div class="recs-search">
-            <p>Terminos de busqueda populares</p>
-            <div class="search-recents">
-                <button class="recents-btn" type="button">jordan</button>
-                <button class="recents-btn" type="button">dunk</button>
-                <button class="recents-btn" type="button">air force</button>
-                <button class="recents-btn" type="button">air max</button>
-                <button class="recents-btn" type="button">blazer</button>
-                <button class="recents-btn" type="button">dunk low</button>
-            </div>
 
-        </div>
-        
-    </div>
+
+    <script src="control.js"></script>
 </body>
-<script src="control.js"></script>
+
 </html>

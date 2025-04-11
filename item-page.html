@@ -7,6 +7,96 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="search-container">
+            <div class="search-bar-container pad-top-1">
+                <div class="logo">
+                    <img src="./img/swoosh-2.png">
+                </div>
+                <input type="search" class="search" id="redirector" placeholder="Search...">
+                <div class="close-btn">Cancelar</div>
+            </div>
+            <div class="recs-search">
+                <p>Terminos de busqueda populares</p>
+                <div class="search-recents">
+                    <button class="recents-btn" type="button">jordan</button>
+                    <button class="recents-btn" type="button">dunk</button>
+                    <button class="recents-btn" type="button">air force</button>
+                    <button class="recents-btn" type="button">air max</button>
+                    <button class="recents-btn" type="button">blazer</button>
+                    <button class="recents-btn" type="button">dunk low</button>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="header-section header-gray">
+                <img src="./img/jordan.png">
+               <div class="nav-items fnt-12px">
+                <a href="#">Buscar tienda</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Únete</a>
+                <a href="#">Iniciar sesión</a>
+               </div> 
+            </div>
+            <div class="ribbon">
+                <div class="logo">
+                    <a href="index.html"><img src="./img/swoosh-2.png"></a>
+                </div>
+                <div class="nav-items">
+                    <a href="#">Lo Nuevo</a>
+                    <a href="#">Hombre</a>
+                    <a href="#">Mujer</a>
+                    <a href="#">Niño/a</a>
+                    <a href="#">Ofertas</a>
+                    <a href="#">SNKRS</a>
+                </div>
+                <div class="icon-holder">
+                    <div id="mainbar" class="search-bar">
+                        <input class="sample-search" type="search" placeholder="Search...">
+                    </div>
+                    <div class="header-icon">
+                        <a href="#"><img src="./img/fav.png"></a>
+                    </div>
+                    <div class="header-icon">
+                        <a href="cart.html"><img src="./img/cart.png"></a>
+                    </div>
+                </div>
     
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="item-page-container">
+            <div class="container-left">
+                <div class="big-img">
+                    <img id="product-image">
+                </div>
+            </div>
+            <div class="container-right" id="product-details">
+                <div id="product-name" class="item-name">
+                </div>
+                <div class="item-description" id="product-description">
+                </div>
+                <div class="item-price" id="product-price">
+                   
+                </div>
+                <div class="size-selector-wrapper">
+                    <div class="size-buttons-container" id="size-buttons">
+                        <p>Selecciona tu talla</p>
+                        <!-- Size buttons will be dynamically added here -->
+                    </div>
+                </div>
+                <div class="bottom-holder">
+                    <div class="button-cart">
+                        <button class="add-to-cart" id="add-to-cart">Agregar a la bolsa de compra</button>
+                    </div>
+                    <div class="fav-add">
+                        <button class="add-to-fav" id="add-to-fav">Favoritos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="item-page-logic.js"></script>
 </body>
 </html>

@@ -8,6 +8,26 @@
 </head>
 <body>
     <header>
+        <div class="search-container">
+            <div class="search-bar-container pad-top-1">
+                <div class="logo">
+                    <img src="./img/swoosh-2.png">
+                </div>
+                <input type="search" class="search" id="redirector" placeholder="Search...">
+                <div class="close-btn">Cancelar</div>
+            </div>
+            <div class="recs-search">
+                <p>Terminos de busqueda populares</p>
+                <div class="search-recents">
+                    <button class="recents-btn" type="button">jordan</button>
+                    <button class="recents-btn" type="button">dunk</button>
+                    <button class="recents-btn" type="button">air force</button>
+                    <button class="recents-btn" type="button">air max</button>
+                    <button class="recents-btn" type="button">blazer</button>
+                    <button class="recents-btn" type="button">dunk low</button>
+                </div>
+            </div>
+        </div>
         <div class="header-container">
             <div class="header-section header-gray">
                 <img src="./img/jordan.png">
@@ -20,7 +40,7 @@
             </div>
             <div class="ribbon">
                 <div class="logo">
-                    <img src="./img/swoosh.jpg">
+                    <a href="index.html"><img src="./img/swoosh-2.png"></a>
                 </div>
                 <div class="nav-items">
                     <a href="#">Lo Nuevo</a>
@@ -31,14 +51,14 @@
                     <a href="#">SNKRS</a>
                 </div>
                 <div class="icon-holder">
-                    <div class="search-bar">
-                        <input type="search" placeholder="Search...">
+                    <div id="mainbar" class="search-bar">
+                        <input class="sample-search" type="search" placeholder="Search...">
                     </div>
                     <div class="header-icon">
-                        u
+                        <a href="#"><img src="./img/fav.png"></a>
                     </div>
                     <div class="header-icon">
-                        c
+                        <a href="cart.html"><img src="./img/cart.png"></a>
                     </div>
                 </div>
     
@@ -48,19 +68,17 @@
     <main>
         <div class="search-result-container">
             <div class="search-result-header">
-                <h1>Resultados de búsqueda</h1>
-                <p>Mostrando 1-12 de 100 resultados</p>
+                <div class="head-text">
+                    Resultados de búsqueda para
+                    <p></p>
+                </div>
             </div>
-            <div class="search-result-grid">
-                 <div class="product-card">
-                    <img src="./img/product.jpg" alt="Product Image">
-                    <h2>Nombre del Producto</h2>
-                    <p>Descripción breve del producto.</p>
-                    <span>$99.99</span>
-                </div> 
+            <div class="search-result-grid" id="product-grid">
+                <!-- Product cards will be dynamically inserted here -->
             </div>
         </div>
     </main>
-    
+    <script src="search.js"></script>
 </body>
+
 </html>
